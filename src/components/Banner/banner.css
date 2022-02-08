@@ -1,0 +1,26 @@
+/** @format */
+
+.banner-image {
+  background-image: url("../../asserts/banner.jpg");
+  height: 30rem;
+  background-position: bottom;
+  /* filter: blur(2px); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-text {
+  /* background-color: rgb(0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.4);  */
+  color: white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+
+  top: 5%;
+  left: 50%;
+  transform: translate(15%, -150%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}

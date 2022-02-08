@@ -1,0 +1,26 @@
+/** @format */
+
+.card-container {
+  padding-top: 3rem;
+}
+.card {
+  background-color: rgb(250, 250, 250);
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 18rem;
+  transition: box-shadow 0.5s linear;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  box-shadow: 5px 10px #ffc000;
+
+  border: 1px;
+}
+.card-icon {
+  margin-top: 2rem;
+}
+.card .btn {
+  float: left;
+}

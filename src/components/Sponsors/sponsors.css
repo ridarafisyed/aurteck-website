@@ -1,0 +1,9 @@
+/** @format */
+.logo-bar {
+}
+.logo-bar img {
+  width: 200px;
+  filter: grayscale(100%);
+
+  padding: 3rem;
+}

@@ -1,0 +1,13 @@
+/** @format */
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+
+.slogun {
+  margin-top: 2rem;
+}
+.lead {
+  margin-top: 3rem;
+}

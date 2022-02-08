@@ -1,0 +1,31 @@
+/** @format */
+
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  cursor: pointer;
+}
+.tabs > li {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  margin: 0 1rem;
+  background-color: none;
+}
+
+.current {
+  background-color: white;
+  color: #ffc000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid #ffc000;
+  /* border-bottom: 2px; */
+  border-top-right-radius: 5px;
+  position: relative;
+  top: 2px;
+}
+.content {
+  padding: 1rem 2rem;
+}

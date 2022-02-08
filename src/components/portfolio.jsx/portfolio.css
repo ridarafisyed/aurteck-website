@@ -1,0 +1,12 @@
+/** @format */
+
+.tab-container {
+  margin-top: 2.5rem;
+}
+.heading {
+  font-size: 2rem;
+
+  padding: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}

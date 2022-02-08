@@ -1,0 +1,42 @@
+/** @format */
+footer {
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+footer a:hover {
+  color: #ffc000;
+}
+footer a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-section {
+  color: gray;
+  background: #333;
+  padding: 2rem;
+}
+.footer_logo {
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+.footer_logo i {
+  color: #ffc000;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 1rem;
+}
+.footer-section li {
+  margin: 0.5rem;
+}
+.footer-section i {
+  color: #ffc000;
+}
