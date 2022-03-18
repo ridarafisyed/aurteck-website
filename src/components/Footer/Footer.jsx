@@ -57,13 +57,25 @@ const Footer = () => {
               </div>
             </Col>
             <Col lg={4} md={12} sm={12}>
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-                <li>Testomonial</li>
-                <li>Contact Us</li>
+              <ul className="footer-links">
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#testomonial">Testomonial</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact Us</a>
+                </li>
               </ul>
               <ul>
                 <li>

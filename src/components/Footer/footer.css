@@ -5,14 +5,15 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-footer a {
+a {
   text-decoration: none;
   color: gray;
 }
-footer a:hover {
+
+a:hover {
   color: #ffc000;
 }
-footer a:visited {
+a:visited {
   color: gray;
   text-decoration: none;
 }

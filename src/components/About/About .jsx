@@ -19,10 +19,11 @@ const About = () => {
             <h4>About Us</h4>
             <h1>Who we Are?</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus consectetur tempora assumenda consequatur numquam
-              iste architecto ducimus cumque blanditiis sint quas rerum
-              repellendus, alias cupiditate, beatae velit tempore impedit aut?
+              At our software company, we turn the digital dreams of our clients
+              into a reality. We work closely with our users throughout software
+              and website development to ensure that we are still aligned with
+              the end goal. We are committed to producing exceptional software
+              for each of our clients.
             </p>
             <button className="btn btn-primary">Learn More</button>
           </Col>

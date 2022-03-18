@@ -13,7 +13,7 @@ const NavBar = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src={Logo}
@@ -27,18 +27,21 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto nav">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="/">
                 Home
-              </Link>
-              <Link className="nav-link" to="/about">
+              </a>
+              <a className="nav-link" href="#about">
                 About
-              </Link>
-              <Link className="nav-link" to="/portfolio">
+              </a>
+              <a className="nav-link" href="#portfolio">
                 Portfolio
-              </Link>
-              <Link className="nav-link" to="/pricing">
+              </a>
+              <a className="nav-link" href="#services">
+                Services
+              </a>
+              <a className="nav-link" href="#contact">
                 Contact
-              </Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

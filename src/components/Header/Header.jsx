@@ -3,6 +3,7 @@
 import React from "react";
 // import Logo from "../img/logo.svg"
 import Logo from "../../asserts/logo_color2.png";
+import { Button } from "@mui/material";
 
 import "./header.css";
 const Header = () => {
@@ -19,9 +20,14 @@ const Header = () => {
         </h3>
 
         <p className="lead">
-          <a className="btn btn-primary btn-lg" href="#" role="button">
+          <Button
+            variant="contained"
+            className="btn btn-primary btn-lg"
+            href="#"
+            role="button"
+          >
             Contact
-          </a>
+          </Button>
         </p>
       </div>
     </>

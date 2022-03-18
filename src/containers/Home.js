@@ -17,28 +17,28 @@ import Banner from "../components/Banner/Banner";
 const Home = () => {
   return (
     <Fragment>
-      <section className="header">
+      <section id="header" className="header">
         <Header />
       </section>
       <Container>
-        <section className="about">
+        <section id="about" className="about">
           <About />
         </section>
-        <section className="services">
+        <section id="services" className="services">
           <Services />
         </section>
-        <section>
+        <section id="portfolio">
           <Portfolio />
         </section>
 
-        <section>
+        <section id="feedback">
           <Feedback />
           {/* Some Possitive Feedback That Encourage Us */}
         </section>
-        <section>
+        <section id="logos">
           <Sponsors />
         </section>
-        <section>
+        <section id="contact">
           <Location />
         </section>
       </Container>
