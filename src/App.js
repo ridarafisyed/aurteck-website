@@ -15,7 +15,7 @@ import Portfolio from "./containers/Portfolio";
 import Layout from "./hocs/Layout";
 import { theme } from "./hocs/Theme";
 
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 
 function App() {
   // return(

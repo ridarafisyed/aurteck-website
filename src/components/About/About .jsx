@@ -13,7 +13,11 @@ const About = () => {
       <Container>
         <Row>
           <Col>
-            <img src={image} style={{ height: "250px" }} />
+            <img
+              src={image}
+              style={{ height: "250px" }}
+              alt="this is a logo visual"
+            />
           </Col>
           <Col className="section-text text-left align-middle">
             <h4>About Us</h4>

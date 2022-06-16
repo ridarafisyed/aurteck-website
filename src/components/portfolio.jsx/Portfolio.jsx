@@ -78,15 +78,17 @@ const Portfolio = () => {
         <TabPanel value={value} index={0}>
           <LogoDesigns />
         </TabPanel>
-        <TabPanel value={value} index={4}>
-          <Illustrations />
-        </TabPanel>
         <TabPanel value={value} index={1}>
           <DeskApp />
         </TabPanel>
-        <TabPanel value={value} index={3}>
+         <TabPanel value={value} index={2}>
           <WebApp />
         </TabPanel>
+         <TabPanel value={value} index={3}>
+          <Illustrations />
+        </TabPanel>
+        
+       
       </Box>
     </Fragment>
   );

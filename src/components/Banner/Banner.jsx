@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { Fragment } from "react";
-import banner from "../../asserts/banner.jpg";
+
 import "./banner.css";
 const Banner = () => {
   return (
