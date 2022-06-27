@@ -20,14 +20,7 @@ const Header = () => {
         </h3>
 
         <p className="lead">
-          <Button
-            variant="contained"
-            className="btn btn-primary btn-lg"
-            href="#"
-            role="button"
-          >
-            Contact
-          </Button>
+          <a className="btn btn-primary" href="#contact">Contact</a>
         </p>
       </div>
     </>

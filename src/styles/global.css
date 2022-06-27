@@ -42,6 +42,14 @@ section {
   border-color: #ffc000;
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ffc000 !important;
+    color:white;
+    box-shadow:none !important;
+    outline:0px !important;
+    
+}
+
 .section-text {
   padding-top: 2rem;
   text-align: left;
