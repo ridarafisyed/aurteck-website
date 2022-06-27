@@ -37,47 +37,41 @@ const links = [
     }
 ];
 
-const testomonial = [
+export const testomonials = [
     {
         id:1,
-        name: 'Samia Irfan',
+        name: 'Samia irfan Qureshi',
         avatar:"url(address)",
-        message:"provide awesome services",
-        postition: "ceo",
+        project_type:"Website",
+        message:"Excellent services, deliverd project on Time",
         star:5,
     },
     {
         id:2,
-        name: 'Samia Irfan',
+        name: 'Mariyam Sadiqa',
         avatar:"url(address)",
-        message:"provide awesome services",
-        postition: "ceo",
+        project_type:"Website",
+        message:"Satisfactory",   
         star:5,
     },
     {
         id:3,
-        name: 'Samia Irfan',
+        name: 'Zohaib Zamaan',
         avatar:"url(address)",
-        message:"provide awesome services",
-        postition: "ceo",
+        project_type:"Websited Development - Full Stack",
+        message:"service is Good. very cooperative",
+
         star:5,
     },
     {
         id:4,
-        name: 'Samia Irfan',
+        name: 'Shafqat Nadeem',
         avatar:"url(address)",
-        message:"provide awesome services",
-        postition: "ceo",
+        project_type:"backend",
+        message:"provide awesome services, thumbs up",
         star:5,
     },
-    {
-        id:5,
-        name: 'Samia Irfan',
-        avatar:"url(address)",
-        message:"provide awesome services",
-        postition: "ceo",
-        star:5,
-    },
+  
 
 ];
 const portfolio_data = [{

@@ -2,91 +2,47 @@
 
 import React, { Fragment } from "react";
 import { Carousel } from "react-bootstrap";
+import { testomonials } from "../../data/data";
+import Image from "../../asserts/profile.png"
 
 import "./feedback.css";
+import { Typography } from "@mui/material";
 
 const FeedbackCards = () => {
   return (
     <Fragment>
       <Carousel arousel variant="dark" className="slider">
-        <Carousel.Item className="slider-item">
-          <div className="feedback-card">
-            <div className="card-profile">
-              <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="this is an vsiaual"
-              />
+      {
+        testomonials.map((testomonial) => (
+           <Carousel.Item className="slider-item">
+            <div className="feedback-card">
+              <div className="card-profile">
+                <img
+                  src={Image}
+                  alt="this is an vsiaual"
+                />
+              </div>
+              <div className="card-message">
+                <p>
+                  <i class="fas fa-quote-right"></i>
+                  <Typography variant="span"  sx={{textTransform:"capitalize"}}> {testomonial.message} </Typography>
+                 
+                  <Typography color="gray" m={2} sx={{textTransform:"capitalize"}}> {testomonial.project_type} </Typography>
+                </p>
+              </div>
+              <Typography  m={2} className="card-name"> {testomonial.name}</Typography>
+              <div className="card-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
-            <div className="card-message">
-              <p>
-                <i class="fas fa-quote-right"></i>
-                Lorem ipsum dolor sit adipisicing elit. Dolorum quas neque
-                cupiditate rem, maiores reiciendis necessitatibus, odio nisi vel
-                soluta voluptatum tempore unde eveniet magnam veniam!
-              </p>
-            </div>
-            <p className="card-name"> Bob Smith</p>
-            <div className="card-stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
         </Carousel.Item>
-        <Carousel.Item>
-          <div className="feedback-card">
-            <div className="card-profile">
-              <img
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                alt="this is an vsiaual"
-              />
-            </div>
-            <div className="card-message">
-              <p>
-                <i class="fas fa-quote-right"></i>
-                Lorem ipsum dolor sit adipisicing elit. Dolorum quas neque
-                cupiditate rem, maiores reiciendis necessitatibus, odio nisi vel
-                soluta voluptatum tempore unde eveniet magnam veniam!
-              </p>
-            </div>
-            <p className="card-name"> Jean Juilia</p>
-            <div className="card-stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="feedback-card">
-            <div className="card-profile">
-              <img
-                src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="this is an vsiaual"
-              />
-            </div>
-            <div className="card-message">
-              <p>
-                <i class="fas fa-quote-right"></i>
-                Lorem ipsum dolor sit adipisicing elit. Dolorum quas neque
-                cupiditate rem, maiores reiciendis necessitatibus, odio nisi vel
-                soluta voluptatum tempore unde eveniet magnam veniam!
-              </p>
-            </div>
-            <p className="card-name"> Molly Hooper </p>
-            <div className="card-stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-        </Carousel.Item>
+        ))
+      }
+        
       </Carousel>
     </Fragment>
   );
