@@ -42,7 +42,7 @@ const Cards = () => {
                 <h3>Web Applications</h3>
                 <div className="cardDescription">
                 <p>
-                  Web development company that purely focuses on building fully functional, robust, and scalable web applications. We build custom web apps using the right technology stacks that align with your business objectives and help you achieve maximum growth. Our end goal is to build quality web applications for you that maximize resource utilization at a low cost.
+                  We Offer Web development service that purely focuses on building fully functional, robust, and scalable web applications. We build custom web apps using the right technology stacks that align with your business objectives and help you achieve maximum growth. Our end goal is to build quality web applications for you that maximize resource utilization at a low cost.
                 </p></div>
                 <Button variant="secondary">Learn more </Button>
               </Card.Body>

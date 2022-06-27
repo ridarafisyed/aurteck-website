@@ -16,6 +16,8 @@ import Layout from "./hocs/Layout";
 import { theme } from "./hocs/Theme";
 
 import { ThemeProvider } from "@mui/material/styles";
+import OurServices from "./components/Services/OurServices";
+import TAC from "./components/TAC/TAC";
 
 function App() {
   // return(
@@ -31,6 +33,8 @@ function App() {
               <Route path="/About" component={About} />
               <Route path="/Portfolio" component={Portfolio} />
               <Route path="/contact" component={Contact} />
+              <Route path="/our-services" component={OurServices} />
+               {/* <Route path="/term-and-contition" component={TAC} /> */}
             </Switch>
           </Layout>
         </ThemeProvider>
