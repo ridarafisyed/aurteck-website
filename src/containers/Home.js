@@ -42,7 +42,7 @@ const Home = () => {
           <Location />
         </section>
       </Container>
-      <Footer />
+
     </Fragment>
   );
 };

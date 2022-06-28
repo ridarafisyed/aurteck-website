@@ -20,43 +20,21 @@ const Copyright = () => {
 const Footer = () => {
   return (
     <div className="footer-section">
-      <Container>
+ 
         <div className="footer-links">
           <Row>
-            <Col lg={4} md={12} sm={12}>
+            <Col lg={3} md={12} sm={12} sx={{margin:0}}>
               <div className="footer_logo">
                 <img src={logo} style={{ height: "100px" }} />
-                <h3>Aurteck</h3>
+                <h4>Aurteck</h4>
                 <p>Let's Build your dream</p>
                 <p>
-                  <i class="fas fa-phone-alt"></i>
-                  <NumberFormat
-                    value="7735163695"
-                    format=" +1 (###) ###-####"
-                    displayType={"text"}
-                  />
-                </p>
-                <p>
-                  <i class="fas fa-phone-alt"></i>
-                  <NumberFormat
-                    value="3231990919"
-                    format=" +92 (###) ###-####"
-                    displayType={"text"}
-                  />
-                </p>
-                <p>
-                  <i class="fas fa-at"></i> hi@aurteck.com
-                </p>
-
-                <p>
-                  <i class="fas fa-map-marker-alt"></i> Liberty, Lahore, Punjab,
-                  Pakistan
-                  <br />
-                  54000
+                  At our software company, we turn the digital dreams of our clients into a reality. We work closely with our users throughout software and website development to ensure that we are still aligned with the end goal. 
                 </p>
               </div>
             </Col>
-            <Col lg={4} md={12} sm={12}>
+            <Col lg={3} md={12} sm={12}>
+              <h4> Company</h4>
               <ul className="footer-links">
                 <li>
                   <a href="#header">Home</a>
@@ -74,71 +52,96 @@ const Footer = () => {
                   <a href="#testomonial">Testomonial</a>
                 </li>
                 <li>
+                  <a href="/term-and-contition">Terms & Conditions</a>
+                </li>
+                <li>
                   <a href="#contact">Contact Us</a>
                 </li>
               </ul>
+              
+            </Col>
+            <Col lg={3} md={12} sm={12}>
+                   <h4> Our Services</h4>
               <ul>
                 <li>
-                  <i class="fab fa-facebook-f"></i> Facebook
+                  <a href="#header">Web Development Services</a>
                 </li>
                 <li>
-                  <i class="fab fa-twitter"></i> Twitter
+                  <a href="#header">Web Hosting Services</a>
                 </li>
                 <li>
-                  <i class="fab fa-instagram"></i> Instagram
+                  <a href="#about">Desktop App Development</a>
                 </li>
                 <li>
-                  <i class="fab fa-linkedin-in"></i> Linkdin
+                  <a href="#services">Mobile App Development</a>
                 </li>
                 <li>
-                  <i class="fab fa-behance"></i> Behance
+                  <a href="#portfolio">E-Commerce Solutions</a>
                 </li>
                 <li>
-                  <i class="fab fa-github"></i> GitHub
+                  <a href="#testomonial">Graphic Design Serices </a>
+                </li>
+                <li>
+                  <a href="#contact">Branding Solutions</a>
+                </li>
+                <li>
+                  <a href="#contact">Custom Buisness Solutions</a>
                 </li>
               </ul>
             </Col>
-            <Col lg={4} md={12} sm={12}>
-              <h4>Contact Form</h4>
-              <form>
-                <div className="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id=""
-                    aria-describedby="emailHelp"
-                    placeholder="Enter email"
+            <Col lg={3} md={12} sm={12} class="contact">
+              
+              <h4> Social Media</h4>
+              <ul className="social-media">
+                <li>
+                  <a href="www.facebook.com"><i class="fab fa-facebook-f"></i> </a>
+                </li>
+                <li>
+                  <a href="www.twitter.com"><i class="fab fa-twitter"></i> </a>
+                </li>
+                <li>
+                  <a href="www.instagram.com"> <i class="fab fa-instagram"></i> </a>
+                </li>
+                <li>
+                  <a href="www.linkdin.com"><i class="fab fa-linkedin-in"></i> </a>
+                </li>
+                <li>
+                  <a href="www.behance.com"><i class="fab fa-behance"></i> </a>
+                </li>
+              </ul>
+              <h4>Contact Us </h4>
+              <p className="contact">
+                  <i class="fas fa-phone-alt"></i>
+                  <NumberFormat
+                    value="7735163695"
+                    format=" +1 (###) ###-####"
+                    displayType={"text"}
                   />
-                </div>
-                <div className="form-group">
-                  <label for="subject">Subject</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="message"
-                    aria-describedby="message"
-                    placeholder="Enter subject"
+                </p>
+                <p className="contact">
+                  <i class="fas fa-phone-alt"></i>
+                  <NumberFormat
+                    value="3231990919"
+                    format=" +92 (###) ###-####"
+                    displayType={"text"}
                   />
-                </div>
-                <div className="form-group">
-                  <label for="message">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    rows="3"
-                  ></textarea>
-                </div>
+                </p>
+                <p className="contact">
+                  <i class="fas fa-at"></i> hi@aurteck.com
+                </p>
 
-                <button type="submit" className="btn btn-primary">
-                  Submit
-                </button>
-              </form>
+                <p className="contact">
+                  <i class="fas fa-map-marker-alt"></i> Liberty, Lahore, Punjab,
+                  Pakistan
+                  <br />
+                  54000
+                </p>
+             
             </Col>
           </Row>
         </div>
         <Copyright />
-      </Container>
+
     </div>
   );
 };

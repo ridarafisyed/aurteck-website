@@ -34,7 +34,7 @@ function App() {
               <Route path="/Portfolio" component={Portfolio} />
               <Route path="/contact" component={Contact} />
               <Route path="/our-services" component={OurServices} />
-               {/* <Route path="/term-and-contition" component={TAC} /> */}
+               <Route path="/term-and-contition" component={TAC} />
             </Switch>
           </Layout>
         </ThemeProvider>

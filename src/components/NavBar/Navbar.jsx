@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 // logo
@@ -42,6 +42,7 @@ const NavBar = () => {
               <a className="nav-link" href="#contact">
                 Contact
               </a>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>

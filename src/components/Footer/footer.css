@@ -1,4 +1,4 @@
-/** @format */
+
 footer {
   align-items: center;
   text-align: center;
@@ -11,9 +11,11 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
   color: #ffc000;
 }
 a:visited {
+  
   color: gray;
   text-decoration: none;
 }
@@ -26,6 +28,13 @@ a:visited {
 .footer_logo {
   padding-top: 4rem;
   padding-left: 4rem;
+}
+.footer_logo h3{
+color: gray;
+}
+.footer_logo p {
+color: gray;
+text-align: justify;
 }
 .footer_logo i {
   color: #ffc000;
@@ -40,4 +49,16 @@ a:visited {
 }
 .footer-section i {
   color: #ffc000;
+}
+.social-media{
+  display: flex;
+  
+  font-size: 1rem;
+}
+.social-media li{
+  margin-right: 1.5rem;
+}
+.contact{
+color: gray;
+margin-top: 1rem;
 }
